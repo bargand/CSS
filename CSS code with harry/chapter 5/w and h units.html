@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>units</title>
+    <style>
+        html{
+            font-size: 45px;
+        }
+        .con{
+            font-size: 12px;
+        }
+        p{
+            background-color: red;
+        }
+        .box1{
+            background-color: aqua;
+            font-size: 3em;          /* em(relative to perent tag) is the mustiply by the main content here the em value is 12px*3em=36px*/
+        }
+        .box2{
+            background-color: pink;
+            font-size: 3rem;         /* rem(relative to html tag) is the multiply by the html mail eliment here we set the html font size in 45px and here te rem value is 45px*3rem=135px*/
+        }
+        .box3{
+            background-color: chartreuse;
+            width: 50vw;           /* vh(view port height) is any devices height and vw(view port width) is any devices width*/
+            height: 50vh;
+        }
+        .box4{
+            background-color: brown;
+            font-size: 100%;       /*% is equal to parents size*/
+        }
+
+    </style>
+</head>
+<body>
+    <div class="con">
+        <p>this is a peragraph</p>
+        <div class="box1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, ab soluta provident fuga dignissimos expedita aliquid atque ipsam fugiat ad officia eligendi itaque eum explicabo qui? Dolore impedit alias pariatur tempora ea illo veritatis?</div>
+        <div class="box2">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+        <div class="box3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat repudiandae aspernatur explicabo.</div>
+        <div class="box4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore alias, ea unde ducimus quidem quae?</div>
+    </div>
+    
+</body>
+</html>

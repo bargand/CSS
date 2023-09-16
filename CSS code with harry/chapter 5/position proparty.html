@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>position</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      li {
+        display: inline;
+      }
+      header {
+        width: 100vw;
+        height: 50px;
+        background-color: black;
+        color: white;
+        position: sticky;
+        top: 0;
+      }
+      p {
+        text-align: center;
+        border: 2px solid green;
+      }
+      .con {
+        background-color: aqua;
+        width: 50vw;
+        height: 50vh;
+        margin: auto;
+        border: 2px solid red;
+      }
+      .box {
+        width: 200px;
+        height: 2000px;
+        background-color: greenyellow;
+        border: 2px solid blue;
+      }
+      .box2 {
+        width: 200px;
+        height: 200px;
+        background-color: greenyellow;
+        border: 2px solid blue;
+        position: relative;
+        bottom: 1500px;
+        left: 222px;
+      }
+      .box3 {
+        width: 200px;
+        height: 200px;
+        background-color: greenyellow;
+        border: 2px solid blue;
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+      }
+      .box4{
+        width: 100px;
+        height: 100px;
+        background-color: brown;
+        color: aliceblue;
+        position: fixed;
+        top: 50%;
+        left: 0px;
+      }
+    </style>
+    <!--there are some position method they are static, relative, absoliute , fixed , sticky-->
+    <!--when the position is static the position is not work in the because this is a defult method-->
+    <!--when the position is relative we can set the top , left , right , and z index otherwise the element is like a defult or static-->
+    <!--when the position is absolute then the content move on his perent's height and dwidth-->
+    <!--fixed method is the element is fixed in the same position in the page-->
+    <!--sticky is the some time fixed proparty in the web page-->
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>home</li>
+          <li>about</li>
+          <li>survices</li>
+          <li>contact</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="con">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+          doloribus quibusdam, perspiciatis cupiditate quasi ullam beata e
+          suscipit eius, alias ut aliquam neque velit nesciunt voluptas,odit
+          explicabo nihil quae vero debitis iste veniam dolore!
+        </p>
+        <div class="box">i am a box and a static method</div>
+        <div class="box2">this is a relative method</div>
+        <div class="box3">this is a absoliute method</div>
+        <div class="box4">this is fixed method</div>
+      </div>
+    </main>
+  </body>
+</html>

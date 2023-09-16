@@ -1,0 +1,43 @@
+/*10 for background color */
+body{
+  background-color: rgb(226, 243, 243);
+}
+
+/*1 we enable the browser default margin and padding */
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+/*22 in the html file where h1 tag is used there this following style is input in one line of css */
+h1 {
+  color: green;
+}
+
+/*25 in the html file where h2 tag is used there this following style is input in one line of css */
+h2 {
+  background-color: rgba(159, 243, 134, 0.486);
+}
+
+/*13 in the html file where li tag is used there this following style is input in one line of css */
+li {
+  background-color: brown;
+  color: white;
+}
+
+/*27 this is id css style */
+#green{
+  color: blueviolet;
+}
+
+/*30 this is class css style*/
+.debu{
+  background-color: blue;
+  color: aliceblue;
+  border: 10px solid pink;
+}
+
+/*33 34 this is use for the silectors group only */
+span , b{
+  border: 2px pink solid;
+}

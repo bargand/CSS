@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>landing html</title>
+    <style>
+      /* *{
+            margin: 0;
+            padding: 0;
+        } */
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(168, 169, 228);
+        line-height: 1.6;
+        text-align: center;
+        text-transform: uppercase;
+      }
+      #ri {
+        height: 200px;
+        text-align: center;
+        top: 20px;
+        color: rgb(253, 0, 0);
+      }
+      #ri h1 {
+        font-size: 50px;
+        line-height: 1.3;
+        position: relative;
+        animation: heading;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
+      }
+      main {
+        top: 1000px;
+      }
+      .riy {
+        color: white;
+        max-width: 960px;
+        margin: auto;
+        padding: 0px 30px;
+        border: 2px solid pink;
+        position: relative;
+        animation: coo;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
+      }
+      @keyframes heading {
+        0% {
+          top: -40px;
+        }
+        100% {
+          top: 100px;
+        }
+      }
+      @keyframes coo {
+        0% {
+          left: -1000px;
+        }
+        100% {
+          left: 0px;
+        }
+      }
+      .riya{
+        display: inline-block;
+        color: white;
+        text-decoration: none;
+        padding: 1rem 2rem;
+        border: 2px solid pink;
+        margin-top: 40px;
+        opacity: 0;
+        animation: btn;
+        animation-duration: 3s;
+        animation-delay: 3s;
+        animation-fill-mode: forwards;
+      }
+      @keyframes btn {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+      .riya:hover{
+        background-color: aqua;
+        border-radius: 10%;
+      }
+
+    </style>
+  </head>
+  <body>
+    <header id="ri">
+      <h1>hello i am debargha</h1>
+    </header>
+    <main>
+      <div class="riy">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque
+        suscipit nobis provident quasi dolorem molestiae iusto nihil accusantium
+        laborum maxime dolores esse vitae minima, placeat odio magni nostrum
+        ducimus reprehenderit error nisi! Quasi doloribus suscipit nobis ipsa
+        possimus reprehenderit quisquam non dolor quia architecto delectus culpa
+        exercitationem inventore veritatis labore, cupiditate aliquid aliquam
+        repudiandae odio commodi nemo dignissimos! Vitae eos soluta perferendis
+        modi voluptates mollitia aliquam, dignissimos inventore magni animi!
+      </div>
+    </main>
+    <a href="transition.html" class="riya"><b>READ MORE</b></a>
+  </body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>practice set 3</title>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+      img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+      }
+      li {
+        list-style: none;
+        padding: 0 10vw;
+        width: 100vw;
+        font-size: 2vw;
+      }
+      ul {
+        background-color: black;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100vw;
+        height: 10vh;
+        align-items: center;
+        border-radius: 20px;
+        padding: inherit;
+      }
+      .mainC {
+        /* background-color: aquamarine;
+            border: 1px solid blueviolet; */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      .box1 {
+        background-color: red;
+        color: white;
+        border-radius: 20px;
+        width: 25vw;
+        height: 25vh;
+        text-align: center;
+        font-size: 2vw;
+      }
+      .box1:hover {
+        background-color: green;
+        cursor: pointer;
+      }
+      .box2 {
+        background-color: green;
+        color: white;
+        border-radius: 20px;
+        width: 25vw;
+        height: 25vh;
+        text-align: center;
+        font-size: 2vw;
+      }
+      .box2:hover {
+        background-color: red;
+        cursor: pointer;
+      }
+      /* #home:hover{
+        color: red;
+        cursor: pointer;
+      }
+      #about:hover{
+        color: red;
+        cursor: pointer;
+      }
+      #contact:hover{
+        color: red;
+        cursor: pointer;
+      } */
+      a{
+        text-decoration: none;
+        color: white;
+      }
+      a:hover{
+        color: red;
+      }
+      img:hover{
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <span>
+          <a href="image.html" target="_blank"><img src="image.JPG" alt="photo" class="img"/></a>
+        </span>
+        <ul>
+          <li id="home"><a href="home.html">HOME</a></li>
+          <li id="about"><a href="about.html">ABOUT</a></li>
+          <li id="contact"><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="mainC">
+        <div class="box1">DEBARGHA</div>
+        <div class="box2">RIYA</div>
+      </div>
+    </main>
+  </body>
+</html>

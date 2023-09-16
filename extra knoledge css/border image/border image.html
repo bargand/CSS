@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>border image</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            width: 1000px;
+            height: 300px;
+            /* background-color: rgb(255, 192, 195); */
+            border: 36px solid;
+            margin: 30px;
+            padding: 10px;
+            border-image: url('https://codecanyon.img.customer.envatousercontent.com/files/382231196/preview.jpg?auto=compress%2Cformat&q=80&fit=crop&crop=top&max-h=8000&max-w=590&s=480d1dc02ad251141e3db927eb2e1759');
+            border-image-slice: 2;    /*this is slice of the image ,,you can change the retio and seen the difference*/
+            border-image-outset: 18px;
+            border-image-width: 16px;
+            border-image-repeat: round;
+        }
+        #debu{
+            width: 800px;
+            height: 150px;
+            background-color: rgb(255, 192, 195);
+            display: inline-block;
+            
+
+        }
+        #tub{
+            width: 100px;
+            height: 150px;
+            border-radius: 50px;
+            
+
+        }
+
+    </style>
+</head>
+<body>
+    <div id="debu">
+        <img id="tub" src="CSM_4476.JPG" alt="photo">
+        <p>i am debargha nandi</p>
+    </div>
+    
+</body>
+</html>

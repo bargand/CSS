@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.red {
+  color: green;
+}
+
+.green {
+  color: red;
+}
+.red {
+  width: 1760px;
+  height: 760px;
+  border: 2px solid red;
+  background-image: url("css\ photo.jpg");
+  background-size: cover; /*cover the full content*/
+  background-attachment: fixed; /*background attachment fixed mean the image is not scolable*/
+  background-repeat: no-repeat; /*that mean the image is not repeat in the webpage*/
+  /* background-position:; */
+  color: rgb(255, 255, 255);
+}
+
+/* body{
+    background-image:url('DSC_0201.JPG') ;
+    background-repeat: no-repeat;
+    width: 100px;
+} */

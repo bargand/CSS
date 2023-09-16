@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>key and animation</title>
+    <style>
+      /* * {
+        margin: 0;
+        padding: 0;
+      } */
+
+      body {
+        background-color: gray;
+      }
+      .box {
+        background-color: white;
+        width: 200px;
+        height: 200px;
+        position: relative; /*go to mdn referance and seen the position of the animationb in the web page*/
+        animation-name: debargha;
+        animation-duration: 3s;
+        animation-delay: 1s; /*delay the animation*/
+        animation-iteration-count: infinite; /*infinite time animate */
+        animation-direction: alternate;
+        animation-timing-function: linear; /*linear=ani. speed same,,ease-in=starting slow and ending first,,ease-out=starting first ending slow,,ease-in-out=this is defult setting*/
+        animation-fill-mode: forwards; /*dont wont to forward this*/
+      }
+      @keyframes debargha {
+        0% {
+          background-color: white;
+          left: 0px;
+          top: 0px;
+          border-radius: 0% 0% 0% 0%;
+        }
+        25% {
+          background-color: red;
+          left: 300px;
+          top: 0px;
+          border-radius: 50% 0% 0% 0%;
+        }
+        50% {
+          background-color: green;
+          left: 300px;
+          top: 300px;
+          border-radius: 50% 50% 0% 0%;
+        }
+        75% {
+          background-color: blue;
+          left: 0px;
+          top: 300px;
+          border-radius: 50% 50% 50% 0%;
+        }
+        100% {
+          background-color: white;
+          left: 0px;
+          top: 0px;
+          border-radius: 50% 50% 50% 50%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box"></div>
+  </body>
+</html>

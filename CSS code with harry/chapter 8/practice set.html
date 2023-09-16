@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>practice set</title>
+    <style>
+      .pog {
+        height: 3px;
+        background-color: rgb(255, 0, 0);
+        animation-name: load;
+        animation-timing-function: ease-in-out;
+        /* animation-delay: 2s; */
+        animation-iteration-count: 1;
+        animation-duration: 1s;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        height: 122px;
+        background-color: black;
+      }
+      main {
+        height: 899px;
+        /* background-color: rgb(238, 63, 92); */
+      }
+      /* @keyframes load {
+        0% {
+          width: 0;
+        }
+        50% {
+          width: 90vw;
+        }
+        100% {
+          width: 100vw;
+        }
+      } */
+
+      /* or */
+
+      @keyframes load {
+        0% {
+          width: 0;
+        }
+        25% {
+          width: 25vw;
+        }
+        50% {
+          width: 50vw;
+        }
+        75% {
+          width: 75vw;
+        }
+        100% {
+          width: 100vw;
+        }
+      }
+      img {
+        width: 200px;
+        height: 200px;
+        animation: wheel 1s infinite;
+      }
+      @keyframes wheel {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(36000deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="pog"></div>
+    <header></header>
+    <main>
+      <img src="wheel.png" alt="wheel" />
+    </main>
+  </body>
+</html>

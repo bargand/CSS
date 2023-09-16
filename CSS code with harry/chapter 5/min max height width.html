@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>min max size</title>
+    <style>
+      /*if the content is smaller then the minimunm height, minimum height will be applied*/
+      .box1 {
+        background-color: aqua;
+        width: 50vw;
+        height: 10vh;
+        min-width: 80vw;
+      }
+      .box2 {
+        background-color: green;
+        width: 500vw;
+        height: 10vh;
+        max-width: 80vw;
+      }
+      .box3 {
+        background-color: yellow;
+        width: 50vw;
+        height: 10vh;
+        min-height: 50vw;
+      }
+      .box4 {
+        background-color: blueviolet;
+        width: 50vw;
+        height: 500vh;
+        max-height: 50vw;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box1">Lorem ipsum dolor sit amet.</div>
+    <br /><br />
+    <div class="box2">Lorem ipsum dolor sit amet.</div>
+    <br /><br />
+    <div class="box3">Lorem ipsum dolor sit amet.</div>
+    <br /><br />
+    <div class="box4">Lorem ipsum dolor sit amet.</div>
+  </body>
+</html>

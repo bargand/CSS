@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .con {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap; /*use for wrap the content*/
+        justify-content: center; /*horaizontally align in center*/
+        background-color: aquamarine;
+        height: 50vh;
+        align-items: center; /*vartically align in center*/
+      }
+      .box1 {
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+        border: 2px solid black;
+      }
+      .box2 {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        border: 2px solid black;
+      }
+
+      .con2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap; /*use for wrap the content*/
+        justify-content: center; /*horaizontally align in center*/
+        background-color: rgb(236, 255, 127);
+        height: 150vh;
+        align-items: center; /*vartically align in center*/
+        align-content: center; /*no extra space in the page   please try the code**  */
+      }
+      .box3 {
+        width: 200px;
+        height: 200px;
+        background-color: blue;
+        border: 2px solid black;
+        order: 4;
+      }
+      .box4 {
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        border: 2px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="con">
+      <div class="box1">box1</div>
+      <div class="box2">box2</div>
+      <div class="box2">box3</div>
+      <div class="box2">box4</div>
+    </div>
+    <div class="con2">
+      <div class="box3">box5</div>
+      <div class="box4">box6</div>
+      <div class="box4">box7</div>
+      <div class="box4">box8</div>
+    </div>
+  </body>
+</html>

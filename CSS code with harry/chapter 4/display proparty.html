@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box1 {
+        height: 100px; /* when we use display inline there the width and height is not allowd we cant set the height and width*/
+        width: 400px;
+        background-color: red;
+        /* display: inline; */
+        /* display: block; */
+        display: inline-block;
+      }
+      .box2 {
+        height: 100px; /* when we use display inline there the width and height is not allowd we cant set the height and width*/
+        width: 400px;
+        background-color: blue;
+        /* display: inline; */
+        /* display: block; */
+        display: inline-block; /*when we use inline block element we can set the height and width at a same time*/
+      }
+      .box3 {
+        color: green;
+        border: 4px solid greenyellow;
+      }
+      .box4 {
+        color: orangered;
+        border: 2px solid greenyellow;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box1">
+      <!--div is the block eliment and span is the inline element-->
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus eligendi
+      </p>
+    </div>
+    <div class="box2">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+        obcaecati
+      </p>
+    </div>
+    <br /><br /><br /><br />
+    <span class="box3">Lorem ipsum dolor sit amet consectetur.</span>
+    <span class="box4">Lorem ipsum dolor sit amet consectetur.</span>
+  </body>
+</html>

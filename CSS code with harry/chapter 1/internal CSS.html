@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>internal CSS</title>
+    <!--the types of CSS is "style tag","internal element","external element"-->
+
+
+    <!--this is used in style tag method-->
+    <style>
+        #second{
+            color: red;
+        }
+        #first{
+            color: green;
+        }
+        .red{
+            border: 1px;
+            background-color: aqua;
+        }
+        .blue{
+            background-color: blue;
+            color: white;
+        }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>   <!--this is the one way in style tag method-->
+        <ul>
+          <li>home</li>
+          <li>about</li>
+          <li>contact</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div id="first">
+        <p>first</p>
+      </div>
+      <div id="second">
+        <p>second</p>
+      </div>
+
+      <section class="red">
+        <p>red</p>
+      </section>
+      <section class="red blue">
+        <p>red blue</p>
+      </section>
+    </main>
+  </body>
+</html>
